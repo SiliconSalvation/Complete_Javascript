@@ -1,17 +1,20 @@
-21007
+21013
 106/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/forkify-architecture-recipe-loading.png1603812714000000000 0
 95/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/forkify-flowchart-part-3.png1603812714000000000 0
-77/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/index.html1615581645492152304 0
+77/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/index.html1615839101343724071 0
 83/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/img/logo.png1603812714000000000 0
 84/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/img/icons.svg1603812714000000000 0
 74/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/img1603812714000000000 1
 92/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/sass/_components.scss1603812714000000000 0
 88/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/sass/_upload.scss1603812714000000000 0
 88/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/sass/_header.scss1603812714000000000 0
-82/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/model.js1615584395781934734 0
-93/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/views/recipeView.js1615588885394219062 0
-79/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/views1615583112947907917 1
-73/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js1615583106195815024 1
+82/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/model.js1615860091644526714 0
+84/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/helpers.js1615829191340965389 0
+93/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/views/searchView.js1615834642858096696 0
+87/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/views/View.js1615856735978020133 0
+93/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/views/recipeView.js1615860483901861169 0
+79/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/views1615846725103017633 1
+73/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js1615827506321867901 1
 70/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src1603812714000000000 1
 75/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/.babelrc1615585187980987077 0
 84/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/package-lock.json1615588415125664456 0
@@ -4990,7 +4993,7 @@
 145/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/regenerate-unicode-properties/General_Category/Modifier_Letter.js499162500000000000 0
 114/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/core-js/es/string/virtual/fixed.js499162500000000000 0
 108/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/node-addon-api/doc/buffer.md499162500000000000 0
-90/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/icons.d4a14980.svg1615588885610217837 0
+90/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/icons.d4a14980.svg1615860484129859620 0
 142/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-unique-selectors/node_modules/postcss/lib/warn-once.js499162500000000000 0
 146/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-normalize-repeat-style/node_modules/postcss/docs/syntax.md499162500000000000 0
 112/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/string.prototype.trimend/auto.js499162500000000000 0
@@ -5744,6 +5747,7 @@
 145/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-modules-extract-imports/node_modules/postcss/package.json1615571550905324365 0
 97/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/ieee754/README.md499162500000000000 0
 142/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-discard-empty/node_modules/postcss/lib/previous-map.js499162500000000000 0
+97/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/views/paginationView.js1615849989903844249 0
 126/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/caniuse-lite/data/features/css-focus-within.js499162500000000000 0
 136/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/jsdom/lib/jsdom/living/nodes/HTMLFieldSetElement-impl.js499162500000000000 0
 95/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/uncss/bin/uncss499162500000000000 0
@@ -5855,7 +5859,7 @@
 111/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/loader-utils/lib/parseString.js499162500000000000 0
 142/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-normalize-positions/node_modules/color-convert/LICENSE499162500000000000 0
 129/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@parcel/transformer-babel/src/BabelTransformer.js499162500000000000 0
-92/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/favicon.80934ffe.png1615588885618217792 0
+92/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/favicon.80934ffe.png1615860484145859512 0
 136/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@babel/runtime/helpers/esm/defineEnumerableProperties.js456789000000000000 0
 97/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/csso/lib/index.js499162500000000000 0
 137/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/icss-utils/node_modules/chalk/node_modules/supports-color1615571719610193638 1
@@ -6542,6 +6546,7 @@
 136/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-discard-empty/node_modules/color-name/.npmignore1435528315000000000 0
 134/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@babel/plugin-transform-react-jsx/lib/create-plugin.js456789000000000000 0
 142/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@parcel/fs-write-stream-atomic/node_modules/string_decoder/lib1615571666149428664 1
+94/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/views/resultsView.js1615856218399659348 0
 134/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-normalize-positions/node_modules/chalk/license499162500000000000 0
 101/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/object.assign/auto.js499162500000000000 0
 115/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/es-abstract/2019/thisStringValue.js499162500000000000 0
@@ -6636,7 +6641,7 @@
 123/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/highlight.js/lib/languages/vbscript-html.js499162500000000000 0
 115/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/uri-js/dist/esnext/schemes/wss.d.ts499162500000000000 0
 140/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-normalize-positions/node_modules/postcss/lib/list.js499162500000000000 0
-82/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.html1615588885698217339 0
+82/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.html1615860484257858750 0
 126/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/caniuse-lite/data/features/css-not-sel-list.js499162500000000000 0
 138/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-modules-scope/node_modules/postcss/CONTRIBUTING.md499162500000000000 0
 150/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/csso/node_modules/css-tree/lib/syntax/pseudo/common/nthWithOfClause.js499162500000000000 0
@@ -6687,7 +6692,7 @@
 145/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-normalize-unicode/node_modules/postcss/lib/declaration.js499162500000000000 0
 97/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/jsprim/CHANGES.md1501690556000000000 0
 101/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/browserify-aes/aes.js499162500000000000 0
-90/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.1206e35b.css1615588885698217339 0
+90/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.1206e35b.css1615860484257858750 0
 111/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@babel/template/lib/populate.js456789000000000000 0
 116/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@babel/types/lib/builders/builder.js456789000000000000 0
 133/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/regenerate-unicode-properties/Script/Gunjala_Gondi.js499162500000000000 0
@@ -6865,7 +6870,7 @@
 148/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-modules-extract-imports/node_modules/supports-color/index.js1534739346000000000 0
 151/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/regenerate-unicode-properties/General_Category/Connector_Punctuation.js499162500000000000 0
 111/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/core-js/internals/math-expm1.js499162500000000000 0
-89/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.250b04c7.js1615588885702217317 0
+89/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.250b04c7.js1615860484261858722 0
 96/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/has-flag/license499162500000000000 0
 116/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/querystring-es3/test/common-index.js1413226718000000000 0
 98/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/which/package.json1615571550773324219 0
@@ -6877,7 +6882,7 @@
 92/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/lodash/gt.js499162500000000000 0
 124/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/jsdom/lib/jsdom/living/file-api/File-impl.js499162500000000000 0
 120/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@babel/plugin-proposal-optional-chaining1615571550905324365 1
-93/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.250b04c7.js.map1615588885706217293 0
+93/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.250b04c7.js.map1615860484261858722 0
 105/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/es-abstract/5/ToObject.js499162500000000000 0
 100/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@babel/types/scripts1615571549741323086 1
 112/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/resolve/test/resolver/same_names1615571549637322971 1
@@ -6903,7 +6908,7 @@
 108/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/es-abstract/5/SecFromTime.js499162500000000000 0
 96/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/xmlchars/LICENSE499162500000000000 0
 144/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-ordered-values/node_modules/postcss-value-parser/LICENSE499162500000000000 0
-89/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/logo.5d271741.png1615588885618217792 0
+89/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/logo.5d271741.png1615860484145859512 0
 93/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/lodash/pad.js499162500000000000 0
 128/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@babel/highlight/node_modules/chalk/package.json1615571719270188841 0
 137/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-modules-scope/node_modules/supports-color/license1496344655000000000 0
@@ -7039,7 +7044,7 @@
 138/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-convert-values/node_modules/postcss/lib/warning.js499162500000000000 0
 111/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/xml-name-validator/package.json1615571550729324172 0
 100/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/stable/stable.min.js1524667296000000000 0
-94/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.1206e35b.css.map1615588885702217317 0
+94/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/index.1206e35b.css.map1615860484261858722 0
 140/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-minify-gradients/node_modules/postcss/lib/postcss.js499162500000000000 0
 100/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/has-symbols/index.js499162500000000000 0
 94/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/lodash/noop.js499162500000000000 0
@@ -8145,7 +8150,7 @@
 127/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-discard-empty/node_modules/postcss/docs1615571718738181329 1
 143/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-modules/node_modules/postcss-modules-scope/src/index.js499162500000000000 0
 103/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/lodash/_stringToPath.js499162500000000000 0
-71/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist1615588885706217293 1
+71/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist1615860484261858722 1
 147/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-modules-extract-imports/node_modules/chalk/types/index.d.ts499162500000000000 0
 102/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/core-js/es/date/now.js499162500000000000 0
 107/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/css-tree/lib/lexer/Lexer.js499162500000000000 0
@@ -8839,7 +8844,7 @@
 88/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/error-ex1615571551161324645 1
 98/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/concat-map/LICENSE1391050985000000000 0
 120/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/core-js/stable/typed-array/find-index.js499162500000000000 0
-87/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/controller.js1615588107017359560 0
+87/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/controller.js1615860115464364859 0
 134/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js456789000000000000 0
 108/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/core-js/features/set/join.js499162500000000000 0
 113/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/highlight.js/scss/googlecode.scss499162500000000000 0
@@ -15515,7 +15520,7 @@
 129/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-merge-longhand/node_modules/color-convert1615571719534192565 1
 127/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/es-abstract/2019/CanonicalNumericIndexString.js499162500000000000 0
 117/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@nodelib/fs.walk/out/types/index.d.ts499162500000000000 0
-90/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/icons.c4b52749.svg1615588885618217792 0
+90/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/dist/icons.c4b52749.svg1615860484145859512 0
 152/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-modules-extract-imports/node_modules/supports-color/package.json1615571719486191888 0
 115/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@nodelib/fs.walk/out/types/index.js499162500000000000 0
 118/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/core-js/modules/es.number.is-finite.js499162500000000000 0
@@ -16956,6 +16961,7 @@
 127/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/stylehacks/node_modules/color-name/package.json1615571719354190026 0
 138/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/postcss-normalize-positions/node_modules/has-flag/index.js1514920575000000000 0
 122/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/stylehacks/node_modules/color-name/test.js1500156819000000000 0
+83/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/src/js/config.js1615850001567708569 0
 137/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/regenerate-unicode-properties/Script_Extensions/Syriac.js499162500000000000 0
 107/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/@parcel/logger/package.json1615571719266188785 0
 106/home/kazuma/WebDevelopment/Complete_Javascript/18-forkify/starter/node_modules/fast-json-stable-stringify1615571551201324689 1

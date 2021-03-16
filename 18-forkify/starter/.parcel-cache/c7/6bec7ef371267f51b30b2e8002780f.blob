@@ -1,0 +1,63 @@
+var _modelJs = require('./model.js');
+var _viewsRecipeViewJs = require('./views/recipeView.js');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _viewsRecipeViewJsDefault = _parcelHelpers.interopDefault(_viewsRecipeViewJs);
+var _viewsSearchViewJs = require('./views/searchView.js');
+var _viewsSearchViewJsDefault = _parcelHelpers.interopDefault(_viewsSearchViewJs);
+var _viewsResultsViewJs = require('./views/resultsView.js');
+var _viewsResultsViewJsDefault = _parcelHelpers.interopDefault(_viewsResultsViewJs);
+var _viewsPaginationView = require('./views/paginationView');
+var _viewsPaginationViewDefault = _parcelHelpers.interopDefault(_viewsPaginationView);
+require('core-js/stable');
+require('regenerator-runtime/runtime');
+require('regenerator-runtime');
+if (module.hot) {
+  module.hot.accept();
+}
+const controlRecipes = async function () {
+  try {
+    const id = window.location.hash.slice(1);
+    if (!id) {
+      return;
+    }
+    _viewsRecipeViewJsDefault.default.renderSpinner();
+    // 1: Loading recipe
+    await _modelJs.loadRecipe(id);
+    // 2: rendering recipe
+    _viewsRecipeViewJsDefault.default.render(_modelJs.state.recipe);
+    controlServings();
+  } catch (err) {
+    _viewsRecipeViewJsDefault.default.renderError();
+  }
+};
+const controlSearchResults = async function () {
+  try {
+    _viewsResultsViewJsDefault.default.renderSpinner();
+    const query = _viewsSearchViewJsDefault.default.getQuery();
+    if (!query) {
+      return;
+    }
+    await _modelJs.loadSearchResults(query);
+    _viewsResultsViewJsDefault.default.render(_modelJs.getSearchResultsPage());
+    _viewsPaginationViewDefault.default.render(_modelJs.state.search);
+  } catch (err) {
+    console.error(err);
+  }
+};
+const controlPagination = function (goToPage) {
+  _viewsResultsViewJsDefault.default.render(_modelJs.getSearchResultsPage(goToPage));
+  _viewsPaginationViewDefault.default.render(_modelJs.state.search);
+};
+const controlServings = function () {
+  // Update recipe servings
+  _modelJs.updateServings(8);
+  // Update view
+  _viewsRecipeViewJsDefault.default.render(_modelJs.state.recipe);
+};
+const init = function () {
+  _viewsRecipeViewJsDefault.default.addHandlerRender(controlRecipes);
+  _viewsRecipeViewJsDefault.default.addHandlerUpdateServings(controlServings);
+  _viewsSearchViewJsDefault.default.addHandlerSearch(controlSearchResults);
+  _viewsPaginationViewDefault.default.addHandlerClick(controlPagination);
+};
+init();
